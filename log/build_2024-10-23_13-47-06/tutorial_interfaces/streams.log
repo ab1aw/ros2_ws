@@ -1,0 +1,337 @@
+[0.009s] Invoking command in '/home/mpolia/workspace/ROS2/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mpolia/workspace/ROS2/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.124s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.295s] -- Detecting CXX compile features - done
+[0.296s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.423s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.545s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.550s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.559s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.644s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.099s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.921s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.243s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.246s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.246s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.246s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.246s]   the cmake_policy command to set the policy and suppress this warning.
+[2.246s] 
+[2.246s] Call Stack (most recent call first):
+[2.246s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.246s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.246s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.246s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.246s] [0m
+[2.266s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[2.267s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.268s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.268s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.268s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.268s]   the cmake_policy command to set the policy and suppress this warning.
+[2.268s] 
+[2.269s] Call Stack (most recent call first):
+[2.269s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.269s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.269s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.269s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.269s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.269s] [0m
+[2.289s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.289s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.289s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.289s]   the cmake_policy command to set the policy and suppress this warning.
+[2.289s] 
+[2.289s] Call Stack (most recent call first):
+[2.289s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.289s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.289s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.289s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.289s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.289s] [0m
+[2.295s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[2.295s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.295s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.295s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.316s] -- Found PythonExtra: .so
+[2.384s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.402s] -- Added test 'lint_cmake' to check CMake code style
+[2.403s] -- Added test 'xmllint' to check XML markup files
+[2.406s] -- Configuring done (2.4s)
+[2.454s] -- Generating done (0.0s)
+[2.454s] -- Build files have been written to: /home/mpolia/workspace/ROS2/ros2_ws/build/tutorial_interfaces
+[2.464s] Invoked command in '/home/mpolia/workspace/ROS2/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mpolia/workspace/ROS2/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces
+[2.466s] Invoking command in '/home/mpolia/workspace/ROS2/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mpolia/workspace/ROS2/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+[2.487s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.493s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.496s] [  4%] Built target ament_cmake_python_copy_tutorial_interfaces
+[2.740s] running egg_info
+[2.740s] creating tutorial_interfaces.egg-info
+[2.740s] writing tutorial_interfaces.egg-info/PKG-INFO
+[2.741s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[2.741s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[2.741s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.743s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.743s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.767s] [  4%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[2.851s] [  4%] Built target tutorial_interfaces__cpp
+[2.857s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.858s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.858s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.877s] [ 12%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[2.877s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[2.877s] [ 17%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[2.942s] [ 19%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[2.971s] [ 19%] Built target tutorial_interfaces__rosidl_generator_c
+[2.977s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.977s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.978s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.172s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[3.172s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[3.172s] [ 31%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[3.304s] [ 34%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[3.410s] [ 36%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[3.485s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[3.524s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[3.564s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[3.591s] [ 44%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[3.613s] [ 46%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[3.624s] [ 48%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[3.636s] [ 51%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[3.642s] [ 53%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[3.644s] [ 55%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[3.647s] [ 57%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[3.668s] [ 57%] Built target tutorial_interfaces__rosidl_typesupport_c
+[3.674s] [ 59%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[3.679s] [ 61%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[3.692s] [ 63%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.696s] [ 63%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[3.701s] [ 65%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[3.725s] [ 65%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[3.731s] [ 68%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[4.008s] [ 70%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[4.397s] [ 72%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.429s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.488s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.500s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[4.505s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.576s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[4.586s] [ 76%] Built target tutorial_interfaces
+[4.596s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.085s] [ 78%] Built target tutorial_interfaces__py
+[5.096s] [ 80%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[5.096s] [ 82%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[5.096s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[5.203s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[5.234s] [ 87%] Built target tutorial_interfaces__rosidl_generator_py
+[5.245s] [ 89%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.245s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.246s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.357s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.357s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.358s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.390s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.390s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[5.391s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.398s] Invoked command in '/home/mpolia/workspace/ROS2/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mpolia/workspace/ROS2/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+[5.482s] Invoking command in '/home/mpolia/workspace/ROS2/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mpolia/workspace/ROS2/ros2_ws/build/tutorial_interfaces
+[5.485s] -- Install configuration: ""
+[5.486s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[5.486s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.486s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.486s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.486s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[5.486s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[5.487s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[5.487s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[5.487s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[5.487s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[5.487s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[5.487s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[5.487s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[5.487s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.488s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[5.488s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.488s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.488s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[5.488s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[5.489s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[5.489s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[5.489s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[5.489s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[5.489s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[5.489s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[5.490s] -- Set non-toolchain portion of runtime path of "/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[5.490s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.490s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.490s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.490s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[5.490s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[5.490s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.491s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.491s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.491s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[5.491s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.491s] -- Set non-toolchain portion of runtime path of "/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.491s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.491s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.492s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.492s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[5.492s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[5.492s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[5.492s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[5.492s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[5.493s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[5.493s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[5.493s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[5.493s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.493s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.493s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[5.493s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[5.493s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[5.494s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[5.494s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.494s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.494s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.494s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[5.494s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[5.494s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[5.494s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.494s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.494s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.494s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[5.494s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[5.495s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.495s] -- Set non-toolchain portion of runtime path of "/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.495s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.495s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.495s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.495s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[5.495s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[5.495s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[5.495s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[5.495s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.495s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.495s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.495s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[5.495s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[5.495s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[5.496s] -- Set non-toolchain portion of runtime path of "/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.496s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[5.496s] -- Set non-toolchain portion of runtime path of "/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[5.496s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.496s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.496s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.496s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[5.496s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[5.496s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[5.496s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[5.496s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.497s] -- Up-to-date: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.497s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[5.497s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[5.497s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.497s] -- Set non-toolchain portion of runtime path of "/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.497s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[5.498s] -- Set non-toolchain portion of runtime path of "/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.498s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[5.498s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[5.498s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[5.498s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.499s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.499s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.499s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.499s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[5.499s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg
+[5.499s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c
+[5.499s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py
+[5.499s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[5.499s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c
+[5.500s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py
+[5.500s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.500s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[5.500s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.500s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv
+[5.500s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py
+[5.500s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[5.500s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[5.500s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[5.501s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.501s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.501s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[5.501s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.535s] Listing '/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[5.536s] Compiling '/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[5.536s] Listing '/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[5.536s] Compiling '/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...
+[5.536s] Compiling '/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...
+[5.536s] Compiling '/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py'...
+[5.536s] Listing '/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[5.536s] Compiling '/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...
+[5.536s] Compiling '/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[5.541s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.541s] -- Set non-toolchain portion of runtime path of "/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.541s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.542s] -- Set non-toolchain portion of runtime path of "/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.542s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.543s] -- Set non-toolchain portion of runtime path of "/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.543s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[5.543s] -- Set non-toolchain portion of runtime path of "/home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[5.543s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[5.544s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[5.544s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[5.544s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[5.544s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[5.544s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[5.545s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[5.545s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[5.545s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[5.545s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[5.545s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[5.545s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[5.546s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[5.546s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[5.546s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[5.547s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[5.547s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[5.547s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[5.547s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[5.547s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[5.547s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[5.548s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.548s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.548s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.548s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[5.548s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.548s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.549s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.549s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.549s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[5.549s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.549s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.550s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.550s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[5.550s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.550s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[5.550s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.551s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.551s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.551s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.551s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.551s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.552s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.552s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.552s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[5.552s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[5.552s] -- Installing: /home/mpolia/workspace/ROS2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[5.555s] Invoked command in '/home/mpolia/workspace/ROS2/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mpolia/workspace/ROS2/ros2_ws/build/tutorial_interfaces
