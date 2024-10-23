@@ -1,4 +1,0 @@
-Invoking command in '/home/mpolia/workspace/ROS2/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mpolia/workspace/ROS2/ros2_ws/build/cpp_pubsub -- -j8 -l8
-Invoked command in '/home/mpolia/workspace/ROS2/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mpolia/workspace/ROS2/ros2_ws/build/cpp_pubsub -- -j8 -l8
-Invoking command in '/home/mpolia/workspace/ROS2/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mpolia/workspace/ROS2/ros2_ws/build/cpp_pubsub
-Invoked command in '/home/mpolia/workspace/ROS2/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mpolia/workspace/ROS2/ros2_ws/build/cpp_pubsub
